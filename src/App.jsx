@@ -5,29 +5,28 @@ function App() {
     <div className="App">
       {/* ======== SEÇÃO 1 ======== */}
       <section className="banner">
-        <h1>Cloud Computing</h1>
+        <h1>INTEGRAÇÃO, AUTOMAÇÃO E CLOUD</h1>
       </section>
 
       {/* ======== SEÇÃO 2 ======== */}
       <section className="section explicativo">
-        <h2>Modelos de Cloud</h2>
+        <h2>Cloud Computing Aplicada à Automação Industrial</h2>
         <p>
-          A computação em nuvem pode ser implementada em diferentes modelos:
+          A computação em nuvem tem revolucionado a automação industrial,
+          permitindo o monitoramento remoto, a coleta e o processamento de
+          grandes volumes de dados (Big Data) e a integração entre sistemas de
+          produção e plataformas digitais.
         </p>
-        <ul>
-          <li>
-            <strong>Cloud Pública:</strong> recursos compartilhados entre
-            múltiplas organizações, fornecidos por empresas como AWS e Azure.
-          </li>
-          <li>
-            <strong>Cloud Privada:</strong> infraestrutura dedicada a uma única
-            organização, garantindo maior controle e segurança.
-          </li>
-          <li>
-            <strong>Cloud Híbrida:</strong> combinação entre nuvem pública e
-            privada, permitindo flexibilidade e otimização de recursos.
-          </li>
-        </ul>
+        <p>
+          Com o uso da nuvem, as empresas podem conectar sensores, controladores
+          e máquinas em tempo real, analisando dados de desempenho, consumo e
+          manutenção preditiva de forma mais eficiente e segura.
+        </p>
+        <p>
+          Além disso, o cloud computing oferece escalabilidade, reduz custos de
+          infraestrutura e facilita a adoção de soluções baseadas em IA e IoT,
+          essenciais para a Indústria 4.0.
+        </p>
       </section>
 
       {/* ======== SEÇÃO 3 ======== */}
@@ -37,46 +36,60 @@ function App() {
           <div className="card">
             <h3>IaaS</h3>
             <p>
-              Infraestrutura como Serviço: fornece servidores, armazenamento e
-              redes sob demanda.
+              Infraestrutura como Serviço — fornece servidores, armazenamento e
+              redes sob demanda. Ideal para empresas que precisam de controle
+              total sobre os recursos de TI.
             </p>
           </div>
           <div className="card">
             <h3>PaaS</h3>
             <p>
-              Plataforma como Serviço: fornece ambiente de desenvolvimento e
-              implantação de aplicações.
+              Plataforma como Serviço — oferece ambiente para desenvolvimento,
+              testes e implantação de aplicações, sem se preocupar com a
+              infraestrutura subjacente.
             </p>
           </div>
           <div className="card">
             <h3>SaaS</h3>
             <p>
-              Software como Serviço: aplicativos acessíveis pela internet, como
-              Gmail e Salesforce.
+              Software como Serviço — disponibiliza aplicativos prontos via
+              internet, como plataformas de monitoramento e gestão industrial.
             </p>
           </div>
         </div>
       </section>
 
       {/* ======== SEÇÃO 4 ======== */}
-      <section className="section empresas-cloud">
-        <h2>Empresas que Oferecem Serviços em Cloud</h2>
+      <section className="section aplicacoes-industriais">
+        <h2>Aplicações Industriais que Utilizam Cloud</h2>
         <div className="empresa-lista">
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" />
-            <p>AWS</p>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Siemens-logo.svg"
+              alt="Siemens"
+            />
+            <p>Siemens MindSphere</p>
           </div>
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Microsoft_Azure_Logo.svg" alt="Azure" />
-            <p>Microsoft Azure</p>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5c/GE_logo.svg"
+              alt="GE Digital"
+            />
+            <p>GE Predix</p>
           </div>
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" alt="Google Cloud" />
-            <p>Google Cloud</p>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/50/Rockwell_Automation_logo.svg"
+              alt="Rockwell Automation"
+            />
+            <p>FactoryTalk Cloud</p>
           </div>
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/IBM_Cloud_logo.svg" alt="IBM Cloud" />
-            <p>IBM Cloud</p>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/02/ABB_logo.svg"
+              alt="ABB Ability"
+            />
+            <p>ABB Ability</p>
           </div>
         </div>
       </section>
@@ -86,16 +99,28 @@ function App() {
         <h2>Empresas que Utilizam Serviços em Cloud</h2>
         <div className="empresa-lista">
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+              alt="Netflix"
+            />
           </div>
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spotify_Logo.svg" alt="Spotify" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spotify_Logo.svg"
+              alt="Spotify"
+            />
           </div>
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Airbnb_Logo_Bélo.svg" alt="Airbnb" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Uber_Logo_Black.svg"
+              alt="Uber"
+            />
           </div>
           <div className="empresa">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Uber_Logo_Black.svg" alt="Uber" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Tesla_Motors.svg"
+              alt="Tesla"
+            />
           </div>
         </div>
       </section>
